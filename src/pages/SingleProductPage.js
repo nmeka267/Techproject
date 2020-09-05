@@ -10,11 +10,12 @@ export default function SingleProductPage() {
       <ProductConsumer>
         {(value) => {
           const { singleProduct, addToCart, loading } = value;
-
           if (loading) {
-            console.log("hello from loading");
-            return <h1>product loading....</h1>;
+            console.log("hello loading");
+
+            return <h1>product loading...</h1>;
           }
+
           const {
             company,
             description,
@@ -23,30 +24,34 @@ export default function SingleProductPage() {
             title,
             image,
           } = singleProduct;
+
+          // console.log(url);
           return (
             <section className="py-5">
               <div className="container">
                 <div className="row">
                   <div className="col-10 mx-auto col-sm-8 col-md-6 my-3">
                     <img
+                      // src={`../${url}`}
                       src={`../${image}`}
-                      // src={image}
+                      //src={image}
                       alt="single product"
                       className="img-fluid"
                     />
                   </div>
                   <div className="col-10 mx-auto col-sm-8 col-md-6 my-3">
-                    <h5 className="text-title mb-4">model :{title} </h5>
+                    <h5 className="text-title mb-4">model :{title}</h5>
                     <h5 className="text-capitalize text-muted mb-4">
                       company : {company}
                     </h5>
-                    <h5 className="text-main text-capitalize mb-4">
+                    <h5 className="text-main text-capitalize  mb-4">
                       price : ₹{price}
                     </h5>
                     <p className="text-capitalize text-title mt-3">
                       some info about product :
                     </p>
                     <p>{description}</p>
+
                     <button
                       type="button"
                       className="main-link"

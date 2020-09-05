@@ -18,24 +18,24 @@ export default function HomePage() {
               <Carousel.Item>
                 <img className="d-block w-100" src={slide1} alt="First slide" />
                 <Carousel.Caption>
-                  <h3>Up to 60 %</h3>
-                  <p>on mobiles.</p>
+                  <p style={{ fontSize: "60px" }}>Up to 60 %</p>
+                  <h1>on mobiles.</h1>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100" src={slide2} alt="Third slide" />
 
                 <Carousel.Caption>
-                  <h3>Up to 50 % </h3>
-                  <p>on laptop.</p>
+                  <p style={{ fontSize: "60px" }}>Up to 50 % </p>
+                  <h1>on laptop. </h1>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100" src={slide3} alt="Third slide" />
 
                 <Carousel.Caption>
-                  <h3>Up to 30 %</h3>
-                  <p>on desktop.</p>
+                  <p style={{ fontSize: "60px" }}>Up to 30 %</p>
+                  <h1>on desktop. </h1>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>

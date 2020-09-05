@@ -14,7 +14,7 @@ export default function Footer() {
                   <p className="text-capitalize"></p>
                 </div>
                 <div className="col-md-6 d-flex justify-content-around">
-                  {value.socialIcons.map((item) => (
+                  {value.socialLinks.map((item) => (
                     <a href={item.url} key={item.id}>
                       {item.icon}
                     </a>

@@ -9,7 +9,10 @@ export default function Cart() {
     <section className="py-5 cart-display">
       {/* title */}
       <CartWrapper>
-        <div className="container">
+        <div
+          className="container"
+          style={{ marginBottom: "40px", paddingTop: "40px" }}
+        >
           <Title title="your cart items" center />
         </div>
         {/* cart columns */}
