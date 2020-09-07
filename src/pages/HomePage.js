@@ -53,8 +53,8 @@ export default function HomePage() {
           our products
         </Link>
       </Hero> */}
-      <Services />
       <Featured />
+      <Services />
     </>
   );
 }
