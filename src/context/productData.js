@@ -63,7 +63,7 @@ export const items = [
     fields: {
       title: "Samsung Galaxy Note 100 - black",
       price: 35000,
-      company: "google",
+      company: "samsung",
       description:
         "The Galaxy Note 10 is designed to give you the mobile experience of a computer, a gaming console, a movie-tech camera, and an intelligent pen - all in one device. Powered by a 7nm processor, 8 GB of RAM, 256 GB of internal storage capacity and a 2.0 Gbps LTE connection, the Note 10 lets you download files, live-game, and stream content seamlessly.",
       featured: false,
@@ -84,8 +84,8 @@ export const items = [
       featured: false,
 
       image: { fields: { file: { url: "img/galaaxy11.jpg" } } },
+      freeShipping: true,
     },
-    freeShipping: false,
   },
 
   {
@@ -99,8 +99,8 @@ export const items = [
         "The Canon M50 camera lets you capture all those memorable moments in good clarity.Its DIGIC 8 processor and Dual Pixel CMOS AF pave the way for improved image quality.You can also shoot 4K movies and extract high- resolution still images from them easily",
       featured: true,
       image: { fields: { file: { url: "img/canon1.png" } } },
+      freeShipping: true,
     },
-    freeShipping: true,
   },
   {
     sys: { id: 7 },

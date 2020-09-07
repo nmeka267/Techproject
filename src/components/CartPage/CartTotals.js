@@ -21,7 +21,7 @@ export default function CartTotals() {
                   style={{ border: "red" }}
                 >
                   <thead>
-                    <tr>
+                    <tr className="text-main">
                       <th>subtotal</th>
                       <th>tax</th>
                       <th>total</th>

@@ -27,7 +27,7 @@ export default function ProductFilter() {
                     id="search"
                     onChange={handleChange}
                     value={search}
-                    className="filter-item"
+                    className=""
                   />
                 </div>
                 {/*end of text search */}
@@ -42,9 +42,10 @@ export default function ProductFilter() {
                     className="filter-item"
                   >
                     <option value="all">all</option>
-                    <option value="fuji">samsung</option>
-                    <option value="htc">Apple</option>
-                    <option value="htc">fuji</option>
+                    <option value="samsung">samsung</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Canon">Canon</option>
+                    <option value="hp">HP</option>
                   </select>
                 </div>
                 {/* end of category search */}
@@ -52,7 +53,7 @@ export default function ProductFilter() {
                 <div>
                   <label htmlFor="price">
                     <p className="mb-2">
-                      product price : <span>$ {price}</span>
+                      product price : <span> ₹ {price}</span>
                     </p>
                   </label>
                   <input
